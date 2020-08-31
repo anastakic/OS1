@@ -2,9 +2,10 @@
 
 ## Kernel thread management and synchronization
 
+Implementation of a small time-sharing operating system kernel. The solution implements and allows concurrent execution of multiple user-written threads on an Intel 8086 compatible CPU.
 
-System is implemented in C++ (90s version, before C++98 standard), supported by bcc 3.1 compiler. Some parts were written in assembly for Intel 8086 and compatible processors.
-Targeted (host) operating system: Windows 7 (32-bit)
+Multithreading operating system is implemented in C++ (90s version, before C++98 standard). 
+Some parts of code are written in assembly for Intel 8086 processor.
 Required compiler: BCC (Borland C++ Compiler), version 3.1
 Memory model: huge
 Source/header/library file names should not be longer than 8 characters
